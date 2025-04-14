@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';  // Import Provider
 import { store } from './app/store.js';  // Import the store
 
 createRoot(document.getElementById('root')).render(
-  <Provider store={store}>  // Wrapping App with Provider
+  <Provider store={store}> 
     <StrictMode>
       <App />
     </StrictMode>
